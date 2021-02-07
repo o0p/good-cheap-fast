@@ -25,3 +25,13 @@ body {
 .toggle {
 visibility: hidden;
 }
+
+.label {
+    background-color: #d0d0d0;
+    border-radius: 3.125rem;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 0.9375rem 0;
+    width: 5rem;
+    height: 2.5rem;
+}
