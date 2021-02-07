@@ -21,3 +21,7 @@ body {
     margin: 0.625rem 0;
     width: 12.5rem;
 }
+
+.toggle {
+visibility: hidden;
+}
