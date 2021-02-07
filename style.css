@@ -21,8 +21,8 @@ body {
 .toggle-container {
     display: flex;
     align-items: center;
-    margin: 0.625rem 0;
-    width: 12.5rem;
+    margin: 10px 0;
+    width: 200px;
 }
 
 .toggle {
@@ -34,13 +34,25 @@ visibility: hidden;
     border-radius: 3.125rem;
     cursor: pointer;
     display: inline-block;
-    margin: 0 0.9375rem 0;
-    width: 5rem;
-    height: 2.5rem;
-    box-shadow: 0px 0.0625rem 0.0625rem rgba(0, 0, 0, 0.5);
+    margin: 0 15px 0;
+    width: 80px;
+    height: 40px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
     position: relative;
 }
 
 .toggle:checked + .label {
     background-color: #ff5100;
+}
+
+.ball {
+    background-color: #666666;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    align-items: center;
+    justify-content: center;
 }
