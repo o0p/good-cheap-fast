@@ -13,6 +13,9 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
+    background-color: #f4f6f8;
+    color: #1b1b1b;
+    
 }
 
 .toggle-container {
@@ -34,4 +37,10 @@ visibility: hidden;
     margin: 0 0.9375rem 0;
     width: 5rem;
     height: 2.5rem;
+    box-shadow: 0px 0.0625rem 0.0625rem rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.toggle:checked + .label {
+    background-color: #ff5100;
 }
